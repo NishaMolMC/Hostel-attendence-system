@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="/myapp/edit_student_post/" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table width="331" border="1">
+    <tr>
+      <td width="97">Name:</td>
+      <td width="218"><input type="text" value="{{ data.Name }}" name="textfield" id="textfield" /></td>
+    </tr>
+    <tr>
+      <td>Place:</td>
+      <td><input type="text" value="{{ data.Place }}" name="textfield2" id="textfield2" /></td>
+    </tr>
+    <tr>
+      <td>PostOffice:</td>
+      <td><input type="text" value="{{ data.Post }}" name="textfield3" id="textfield3" /></td>
+    </tr>
+    <tr>
+      <td>Pincode:</td>
+      <td><input type="text" value="{{ data.Pin }}" name="textfield4" id="textfield4" /></td>
+    </tr>
+    <tr>
+      <td>District:</td>
+      <td><input type="text" value="{{ data.District }}" name="textfield5" id="textfield5" /></td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td><input type="text" value="{{ data.Email }}" name="textfield6" id="textfield6" /></td>
+    </tr>
+    <tr>
+      <td>Phone Number:</td>
+      <td><input type="text" value="{{ data.Phone }}" name="textfield7" id="textfield7" /></td>
+    </tr>
+    <tr>
+      <td>Parent Name:</td>
+      <td><input type="text" value="{{ data.Parentname }}" name="textfield8" id="textfield8" /></td>
+      </tr>
+      <tr>
+      <td>Parent's phone Number:</td>
+      <td><input type="text" value="{{ data.Parentphonenumber }}" name="textfield9" id="textfield9" /></td>
+    </tr>
+     <tr>
+      <td>Department:</td>
+      <td><input type="text" value="{{ data.Department }}" name="textfield10" id="textfield10" /></td>
+     </tr>
+     <tr>
+      <td>Admission Year:</td>
+      <td><input type="text" value="{{ data.AdmissionYear }}" name="textfield11" id="textfield11" /></td>
+     </tr>
+      <tr>
+    <tr>
+      <td>Photo:</td>
+      <td><input type="file" value="{{ data.Photo }}" name="fileField" id="fileField" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" name="button" id="button" value="Update" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
